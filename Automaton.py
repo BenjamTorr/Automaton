@@ -20,50 +20,19 @@ nltk.download("stopwords")
 warnings.filterwarnings('ignore')
 import scrapping
 
-Mobile_upper = ["Smartphone",
-"Tablet",
-"Wearable: Fitness Band",
-"Wearable: Smart Watch",
-"Wearable: Earbuds",
-"Wearables: Others",
-"Feature Phone",
-"Wireless Carrier",
-"Desktop Computer",
-"Laptop",
-"Music Service - Radio",
-"Music Service - Streaming App",
-"Mobile Branding"]
+Mobile_upper = ["eliminated"]
 Mobile = [x.lower() for x in Mobile_upper]
 
-VD_upper = ["Home Theater",
-"Monitor",
-"TV",
-"Connected TV",
-"VD Branding"]
+VD_upper = ["eliminated"]
 VD = [x.lower() for x in VD_upper]
 
-DA_upper = ["Air Conditioner",
-"Refrigerator",
-"Stove Top",
-"Oven",
-"Air Purifier",
-"Dishwasher",
-"Microwave",
-"Vacuum Cleaner",
-"Connected Home",
-"DA Branding",
-"Washing Machine"
-]
+DA_upper = ["eliminated"]
 DA = [x.lower() for x in DA_upper]
 
 Memory = ["memory"]
 Corporate = ["corporate"] 
     
-clases_modelo_ = ["Smartphone", "Tablet", "Wearable: Fitness Band", "Wearable: Smart Watch", "Wearable: Earbuds",
-"Wearables: Others", "Feature Phone", "Wireless Carrier", "Desktop Computer", "Laptop", "Music Service - Radio",
-"Music Service - Streaming App", "Mobile Branding", "Home Theater", "Monitor", "TV", "Connected TV", "VD Branding",
-"Air Conditioner", "Refrigerator", "Stove Top", "Oven", "Air Purifier", "Dishwasher", "Microwave", "Vacuum Cleaner",
-"Connected Home", "DA Branding", "Washing Machine", "Memory","Corporate", "x"]
+clases_modelo_ = ["Smartphone", "Tablet", "..."]
 
 clases_modelo = []
 for i in clases_modelo_:
